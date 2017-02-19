@@ -32,109 +32,127 @@
       <h2 class="inner_text">Featured Work</h2>
     </div>
     <div class="images">
-      <a href="#myModal">
-      <div id="my_div" class="image_list" onclick="myFunction()">
+      <div id="my_div" class="image_list">
         <figure>
+          <a href="#myModal" class="lnk" onclick="myFunction(event)">
         <picture>
           <source srcset="images_dest/responsive-small.jpg" media="(max-width: 450px)">
           <source srcset="images_dest/responsive-medium.jpg" media="(max-width: 999px)">
           <source srcset="images_dest/responsive-large_1x.jpg 1x, images_dest/responsive-large_2x.jpg 2x" media="(min-width: 1000px)">
           <img src="images_src/responsive.jpg" alt="Image1">
         </picture>
+      </a>
         <figcaption class="txt">
         <a href="http://github.com/lubgade/">
              <h3 class="txt1">Responsive Blog</h3>
         </a>
       </figcaption>
     </figure>
+    <div id="child" class="actual-content">
+      <h2>Responsive Blog</h2>
+      <p>This project helps users make a responsive blog</p>
+    </div>
       </div>
-    </a>
+
       <div class="image_list">
         <figure>
+          <a href="#myModal" class="lnk" onclick="myFunction(event)">
         <picture >
           <source srcset="images_dest/movies-small.jpg" media="(max-width: 450px)">
           <source srcset="images_dest/movies-medium.jpg" media="(max-width: 999px)">
           <source srcset="images_dest/movies-large_1x.jpg 1x, images_dest/movies-large_2x.jpg 2x" media="(min-width: 1000px)">
           <img src="images_src/movies.jpg" alt="Image1">
         </picture>
+      </a>
         <figcaption class="txt">
         <a href="https://github.com/lubgade/Movie-Trailer-Website/">
           <h3 class="txt1">Movie Trailer Website</h3>
         </a>
         </figcaption>
       </figure>
+      <div id="child" class="actual-content">
+        <h2>Movie Trailer Website</h2>
+        <p>This project helps users make a responsive blog</p>
+      </div>
       </div>
       <div class="image_list">
         <figure>
+        <a href="#myModal" class="lnk" onclick="myFunction(event)">
         <picture>
           <source srcset="images_dest/turtle_graphics-small.jpg" media="(max-width: 450px)">
           <source srcset="images_dest/turtle_graphics-medium.jpg" media="(max-width: 999px)">
           <source srcset="images_dest/turtle_graphics-large_1x.jpg 1x, images_dest/turtle_graphics-large_2x.jpg 2x" media="(min-width: 1000px)">
           <img src="images_src/turtle_graphics.jpg" alt="Image1">
         </picture>
+      </a>
         <figcaption class="txt">
         <a href="https://github.com/lubgade/Triangle_flower/">
           <h3 class="txt1">Turtle Graphics</h3>
         </a>
       </figcaption>
     </figure>
+    <div id="child" class="actual-content">
+      <h2>Turtle Graphics</h2>
+      <p>This project helps users make a responsive blog</p>
+    </div>
       </div>
       <div class="image_list">
         <figure>
+          <a href="#myModal" class="lnk" onclick="myFunction(event)">
         <picture>
           <source srcset="images_dest/scramble_unscramble-small.jpg" media="(max-width: 450px)">
           <source srcset="images_dest/scramble_unscramble-medium.jpg" media="(max-width: 999px)">
           <source srcset="images_dest/scramble_unscramble-large_1x.jpg 1x, images_dest/scramble_unscramble-large_2x.jpg 2x" media="(min-width: 1000px)">
           <img src="images_src/scramble_unscramble.jpg" alt="Image1">
         </picture>
+      </a>
         <figcaption class="txt">
         <a href="http://github.com/lubgade/Rename_files/">
           <h2 class="txt1">Scramble-Unscramble</h2>
         </a>
       </figcaption>
     </figure>
+    <div id="child" class="actual-content">
+      <h2>Scramble Unscramble</h2>
+      <p>This project helps users make a responsive blog</p>
+    </div>
       </div>
       <div class="image_list">
         <figure>
+          <a href="#myModal" class="lnk" onclick="myFunction(event)">
         <picture>
           <source srcset="images_dest/turtle_graphics-small.jpg" media="(max-width: 450px)">
           <source srcset="images_dest/turtle_graphics-medium.jpg" media="(max-width: 999px)">
           <source srcset="images_dest/turtle_graphics-large_1x.jpg 1x, images_dest/turtle_graphics-large_2x.jpg 2x" media="(min-width: 1000px)">
           <img src="images_src/turtle_graphics.jpg" alt="Image1">
         </picture>
+      </a>
         <figcaption class="txt">
         <a href="http://github.com">
           <h3 class="txt1">Leena</h3>
         </a>
       </figcaption>
     </figure>
+    <div id="child" class="actual-content">
+      <h2>Last Div</h2>
+      <p>This project helps users make a responsive blog</p>
+    </div>
       </div>
           </div>
+          <footer>
+            <p>All rights reserved @ 2017 Leena Ghanekar</p>
+          </footer>
    </div>
-
-   <!-- Modal  -->
+     <!-- Modal  -->
    <div id="myModal" class="modal">
      <div class="modal-content">
-       <!--<span class="close">&times;</span>-->
        <a href="#close" title="Close" class="close">X</a>
+       <div id="modal-inner-content">
+       <h2 id="">Modal Content</h2>
        <p>Some text in the modal...</p>
+     </div>
      </div>
    </div>
 
-<!--  <script type="text/javascript">
-   function myFunction() {
-   var my_modal = document.getElementById('myModal');
-   var current_div = document.getElementById("my_div");
-   var span = document.getElementsByClassName("close")[0];
-
-   current_div.onclick = function() {
-     my_modal.style.display = 'block';
-   }
-
-   span.onclick = function() {
-     my_modal.style.display = 'none';
-   }
-}
-   </script>  -->
-  </body>
+    </body>
 </html>
