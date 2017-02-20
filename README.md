@@ -3,6 +3,8 @@
 This is the second project of Full Stack Web Developer Nanodegree.
 This project helps users build a responsive portfolio site using HTML and CSS. This project uses the [**flexbox layout**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) along with [**media queries**](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) to make a responsive layout.
 
+You can check live version of this project [here](https://lubgade.github.io/Build-A-Portfolio/) 
+
 ## Getting Started
 
 To start using this project, choose one of the following options:
